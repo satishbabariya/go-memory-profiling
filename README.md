@@ -6,14 +6,14 @@ package main
 
 import (
    //...
-	"github.com/pkg/profile"
+   "github.com/pkg/profile"
 )
 
 func main() {
-  // Memory profiling
-  defer profile.Start(profile.MemProfile).Stop()
+   // Memory profiling
+   defer profile.Start(profile.MemProfile).Stop()
 
-  //...
+   //...
 }
 ```
 
